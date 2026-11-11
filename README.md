@@ -1,4 +1,4 @@
-# TRACE-REPAIR Artifact
+﻿# TRACE-REPAIR Artifact
 
 This repository contains the artifact package for the paper:
 
@@ -42,6 +42,7 @@ TraceRepair/
 │   ├── subset_20_tasks.txt
 │   ├── subset_60_stratified.txt
 │   └── human_eval_sample_50.txt
+├── code/
 ├── method/
 │   ├── coverage_states.md
 │   ├── iteration_and_termination.md
@@ -270,3 +271,15 @@ intention-to-treat — tasks are not dropped because a run failed or a record is
   note   = {Submitted for review}
 }
 ```
+## Code
+
+`code/` contains the implementation used for the reported experiments, split by research
+question: `common/` for the shared deterministic modules, `rq1/` for the pipeline and the batch
+driver, `rq3/` for the variant builders and the paired analysis. RQ2 was assessed by manual
+annotation and ships its protocol only. Model access is configured through environment variables,
+so no credential appears in the code. See `code/README.md` for entry points.
+
+The implementation graph and the cross-graph mapping are extracted on the initial candidate and
+reused during revision, which is the configuration reported in the paper. A further experimental
+variant re-extracts them at every revision and issues more model calls; it is not used for the
+reported numbers.
