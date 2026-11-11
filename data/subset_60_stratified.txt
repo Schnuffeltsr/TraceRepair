@@ -1,0 +1,76 @@
+# 60-task stratified sample (20 easy / 20 medium / 20 hard)
+#
+# Provenance: the project's experiment tree, trace_run/tiers60_ids.txt and
+#   trace_run/tiers60_清单.md (same 60 instances, same order).
+# Tier assignment is from trace_run/tiers60_清单.md: difficulty score = changed lines +
+#   FAIL_TO_PASS count + issue length, split into three equal blocks
+#   (score 6.3-15.5 easy / 15.6-25.6 medium / 25.7-735.5 hard).
+# Paper result: 30/60 resolved under the official harness. The sample over-represents
+#   hard tasks relative to the 300-task pool, so it is not compared with the main
+#   experiment.
+
+## easy (20)
+django__django-11179
+sympy__sympy-21627
+pytest-dev__pytest-6116
+matplotlib__matplotlib-25433
+sphinx-doc__sphinx-8595
+astropy__astropy-6938
+pylint-dev__pylint-7993
+mwaskom__seaborn-3190
+pydata__xarray-4248
+scikit-learn__scikit-learn-13779
+django__django-13230
+sympy__sympy-13480
+pytest-dev__pytest-7432
+matplotlib__matplotlib-23314
+sphinx-doc__sphinx-7738
+astropy__astropy-12907
+pylint-dev__pylint-5859
+mwaskom__seaborn-3407
+pydata__xarray-4094
+scikit-learn__scikit-learn-13241
+
+## medium (20)
+django__django-15061
+sympy__sympy-17655
+scikit-learn__scikit-learn-15512
+matplotlib__matplotlib-23987
+pytest-dev__pytest-9359
+sphinx-doc__sphinx-8506
+psf__requests-863
+mwaskom__seaborn-3010
+astropy__astropy-7746
+pylint-dev__pylint-7114
+pallets__flask-4992
+django__django-12308
+sympy__sympy-13043
+scikit-learn__scikit-learn-13439
+matplotlib__matplotlib-23299
+pytest-dev__pytest-8365
+sphinx-doc__sphinx-8474
+psf__requests-1963
+mwaskom__seaborn-2848
+django__django-15789
+
+## hard (20)
+django__django-16816
+sympy__sympy-18698
+scikit-learn__scikit-learn-13496
+matplotlib__matplotlib-23562
+sphinx-doc__sphinx-10325
+pytest-dev__pytest-7168
+pydata__xarray-3364
+psf__requests-2674
+pylint-dev__pylint-7080
+pallets__flask-4045
+astropy__astropy-14182
+django__django-14999
+sympy__sympy-15678
+scikit-learn__scikit-learn-15535
+matplotlib__matplotlib-26011
+sphinx-doc__sphinx-7975
+pytest-dev__pytest-7373
+pydata__xarray-4493
+psf__requests-2148
+pylint-dev__pylint-7228

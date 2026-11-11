@@ -1,0 +1,24 @@
+# Python bytecode and caches
+*.pyc
+*.pyo
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Backups and editor leftovers
+*.bak
+*.bak*
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local environment / secrets (the pipeline reads these from the environment)
+.env
+*.env
+venv/
+.venv/
+
+# OS-level noise
+*.log

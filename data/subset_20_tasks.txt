@@ -1,0 +1,29 @@
+# 20-task sample re-evaluated with the official SWE-bench images and parser
+#
+# Provenance: the project's experiment tree, trace_run/pilot20_ids.txt
+#   (verbatim, order preserved).
+# Paper result: all 20 patches applied (20/20); 11/20 passed the full FAIL_TO_PASS
+#   set; 9/20 resolved (PASS_TO_PASS regressions account for the difference).
+# This sample documents that the judging chain works end to end; it is not compared
+#   with the 300-task main experiment.
+
+psf__requests-1963
+psf__requests-2148
+psf__requests-2317
+psf__requests-2674
+psf__requests-3362
+psf__requests-863
+pallets__flask-4045
+pallets__flask-4992
+pallets__flask-5063
+mwaskom__seaborn-2848
+mwaskom__seaborn-3010
+mwaskom__seaborn-3190
+mwaskom__seaborn-3407
+pylint-dev__pylint-5859
+pylint-dev__pylint-6506
+pylint-dev__pylint-7080
+pylint-dev__pylint-7114
+pylint-dev__pylint-7228
+pylint-dev__pylint-7993
+pytest-dev__pytest-11143

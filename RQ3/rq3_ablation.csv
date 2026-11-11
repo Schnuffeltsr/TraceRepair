@@ -1,0 +1,11 @@
+analysis_scope,configuration,reference_arm,n_tasks,pass_at_1_pct,delta_vs_full_pp,resolved,alternative_resolved,control_resolved,odds_ratio,p_value,note
+component_ablation,Complete TRACE-REPAIR (GPT-5.5),—,300,62.33,0.00,187,—,—,—,—,reference configuration; 187/300
+component_ablation,Without Issue Graph,Complete,300,60.00,-2.33,—,—,—,—,—,requirement relation graph removed
+component_ablation,Without Patch Graph,Complete,300,59.67,-2.66,—,—,—,—,—,candidate implementation relation graph removed
+component_ablation,Without cross-graph mapping,Complete,300,56.00,-6.33,—,—,—,—,—,largest single drop; M_t removed so U_t is not computable
+extension_configuration,Deterministic graph processing (enabled),control (disabled),20,—,—,9,9,6,—,0.25,9/20 vs 6/20; discordant pairs 3/0; no significant improvement
+extension_configuration,Increased relation-extraction density (x2.6),original,—,—,—,—,—,—,—,—,patches and outcomes unchanged; no resolved counts reported
+extension_configuration,Multi-file generation,original,—,—,—,—,—,—,—,—,no improvement over the original configuration; destructive patches observed
+extension_configuration,plan-first,original,—,—,—,—,—,—,—,—,no improvement over the original configuration; model calls x2-3
+extension_configuration,Test-driven localization: replacement,original,43,—,—,4,4,22,11.0,<0.001,original 22/43 vs replacement 4/43; discordant pairs 22/2 (= 11.0)
+extension_configuration,Test-driven localization: union,original,55,—,—,10,10,30,30.0,<0.001,original 30/55 vs union 10/55; discordant pairs 30/1 (= 30.0); the corresponding 60-task evaluation falls from 30/60 to 10/60

@@ -1,0 +1,15 @@
+# Human-evaluation sample (50 tasks drawn at random from the 300-task pool)
+#
+# STATUS: the original 50 instance_id list was NOT preserved in the project records.
+#   Searched: the project's experiment tree (trace_run/: runs/, logs, *.txt, *.json,
+#   *.csv), report/*.md and report/*.csv, and the paper sources. The paper and the
+#   internal notes describe the sample only as "a random sample of 50 tasks" from the
+#   300-task pool (paper Section 4.4). No seed, id list or per-task annotation table
+#   for these 50 tasks survives.
+#
+# Therefore this file intentionally contains no instance_ids: inventing 50 ids would
+#   misrepresent the artifact. See the announced counts in rq2_human_eval.csv, which
+#   are the values reported in the paper.
+#
+# TODO(artifact-owner): release the 50 ids (and the per-relation annotation table) if
+#   they are still recoverable from the annotation sheets.

@@ -1,0 +1,6 @@
+evaluation_object,metric_or_criterion,accepted,total,rate_pct,source,note
+Requirement relations,Issue-Edge Validity,410,440,93.18,paper 4.4 (rate); counts from internal records,edges judged supported by the issue text or necessary context
+Candidate implementation relations,Patch-Edge Support,465,520,89.42,paper 4.4 (rate); counts from internal records,edges judged supported by the diff / source / call / data-flow context
+Cross-graph mappings,Strict criterion,130,355,36.62,paper 4.4 (rate); counts from internal records,endpoint semantics + implementation endpoints + relation direction must all match
+Cross-graph mappings,Lenient criterion,280,355,78.87,paper 4.4 (rate); counts from internal records,accepts mappings defensible via call context or behavioural chains; includes all strict acceptances
+Cross-graph mappings,Incorrect or insufficiently supported,75,355,21.13,paper 4.4 (rate); counts from internal records,complement of the lenient criterion (280 + 75 = 355)

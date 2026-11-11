@@ -1,0 +1,5 @@
+configuration,removed_component,sample_set,n_tasks,pass_at_1_pct,delta_vs_full_pp,resolved,source
+Complete TRACE-REPAIR,none,SWE-bench Lite 300,300,62.33,0.00,187,paper 4.5 table
+Without Issue Graph,requirement relation graph,SWE-bench Lite 300,300,60.00,-2.33,—,paper 4.5 table
+Without Patch Graph,candidate implementation relation graph,SWE-bench Lite 300,300,59.67,-2.66,—,paper 4.5 table
+Without cross-graph mapping,cross-graph mapping M_t,SWE-bench Lite 300,300,56.00,-6.33,—,paper 4.5 table

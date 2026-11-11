@@ -1,0 +1,10 @@
+configuration,model_or_setting,sample_set,n_tasks,patches_applied,f2p_all_pass,resolved,pass_at_1_pct,source
+TRACE-REPAIR,GPT-5.5,SWE-bench Lite 300,300,—,—,187,62.33,paper 4.3.1 table (187/300)
+Text-Only Self-Refine,budget-matched,SWE-bench Lite 300,300,—,—,—,55.00,paper 4.3.1 table
+Direct Repair,direct repair,SWE-bench Lite 300,300,—,—,—,52.33,paper 4.3.1 table
+TRACE-REPAIR,GPT-5.4,SWE-bench Lite 300,300,—,—,—,52.00,paper 4.3.1 table
+SOEN,baseline configuration,SWE-bench Lite 300,300,—,—,—,31.67,paper 4.3.1 table
+GitHub Baseline,baseline configuration,SWE-bench Lite 300,300,—,—,—,30.00,paper 4.3.1 table
+SCoT,baseline configuration,SWE-bench Lite 300,300,—,—,—,13.00,paper 4.3.1 table
+TRACE-REPAIR,GPT-5.5,60-task stratified sample (20 easy / 20 medium / 20 hard),60,—,—,30,50.00,paper 4.3.1 / 4.2 (30/60)
+TRACE-REPAIR,GPT-5.5,20-task official-harness re-check,20,20,11,9,45.00,paper 4.3.1 (20/20 applied; 11/20 full F2P; 9/20 resolved)
